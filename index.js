@@ -9,10 +9,9 @@ function takeANumber(num, name) {
 
 function nowServing(katzDeliLine) {
   if(katzDeliLine.length > 0) {
-    for(var i = 0; i < katzDeliLine.length; i++) {
-      katzDeliLine.slice(0,1);
-    return "Currently serving " + katzDeliLine[0] + "." ;
-    
+
+    return "Currently serving " + katzDeliLine.shift(1) + "." ;
+
   }
 
   }else {
