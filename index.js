@@ -9,7 +9,7 @@ function takeANumber(num, name) {
 
 function nowServing(katzDeliLine) {
   if(katzDeliLine.length > 0) {
-    return katzDeliLine[0];
+    return "Currently serving " + katzDeliLine[0] + "." ;
     katzDeliLine.slice(0, 1);
 
   }else {
